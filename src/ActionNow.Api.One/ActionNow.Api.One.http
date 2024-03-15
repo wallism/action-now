@@ -1,0 +1,6 @@
+@ActionNow.Api.One_HostAddress = http://localhost:5038
+
+GET {{ActionNow.Api.One_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
