@@ -30,7 +30,7 @@ jobs:
         uses: azure/container-apps-deploy-action@v2
         with:
           appSourcePath: ${{ github.workspace }}/src
-          dockerfile: ActionNow.Api.One/dockerfile
+          dockerfile: ActionNow.Api.One/Dockerfile
           registryUrl: sprintdeploylearnrepeatregistry.azurecr.io
           registryUsername: ${{ secrets.ACTIONNOWAPIONE_REGISTRY_USERNAME }}
           registryPassword: ${{ secrets.ACTIONNOWAPIONE_REGISTRY_PASSWORD }}
